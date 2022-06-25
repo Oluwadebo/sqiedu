@@ -7,33 +7,50 @@
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/all.min.css">
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <title>SQIlanding page</title>
+    <style>
+        .dback{
+            background-color: #E5DEDE;
+        }
+        .sty{
+            background-color: #1a0e52;
+            margin-top: 90px;
+        }
+        .sty h3{
+            font-size: 70px;
+        }
+        @media only screen and (max-width: 600px)  {
+                .sty h3{
+                font-size:larger;
+            }
+        }
+    </style>
 </head>
 <body>
     
     <div>
 
         <div class="container">
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top mx-5">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top mx-5" style="background-color: #FFFFFF;">
                 <a class="navbar-brand">
                     <div class="logo">
                         <img src="pic/SQI.jpg" alt="SQI" class="rounded-circle" height="60px">
                     </div>
                 </a>  
-                <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                <button class="navbar-toggler bg-dark " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbardrop" data-toggle="dropdown">About</a>
-                            <div class="dropdown-menu">
+                            <div class="dropdown-menu dback">
                                 <a class="dropdown-item" href="#">Our Story</a>
                                 <a class="dropdown-item" href="#">Our Team</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbardrop" data-toggle="dropdown">Programmes</a>
-                            <div class="dropdown-menu">
+                            <div class="dropdown-menu dback">
                                 <a class="dropdown-item" href="#">National Innovation Diploma</a>
                                 <a class="dropdown-item" href="#">Professional Diploma Program</a>
                                 <a class="dropdown-item" href="#">Executive Professional Certificate Programme</a>
@@ -41,7 +58,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbardrop" data-toggle="dropdown">Admissions</a>
-                            <div class="dropdown-menu">
+                            <div class="dropdown-menu dback">
                                 <a class="dropdown-item" href="#">Apply for a Programme</a>
                                 <a class="dropdown-item" href="#">Mode of Study</a>
                                 <a class="dropdown-item" href="#">Tuition</a>
@@ -51,20 +68,20 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbardrop" data-toggle="dropdown">Academics</a>
-                            <div class="dropdown-menu">
+                            <div class="dropdown-menu dback">
                                 <a class="dropdown-item" href="#">Timetable</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbardrop" data-toggle="dropdown">E-Portal</a>
-                            <div class="dropdown-menu">
+                            <div class="dropdown-menu dback">
                                 <a class="dropdown-item" href="#">Staff</a>
                                 <a class="dropdown-item" href="#">Student</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbardrop" data-toggle="dropdown">R & D</a>
-                            <div class="dropdown-menu">
+                            <div class="dropdown-menu dback">
                                 <a class="dropdown-item" href="#">The Alpha Project</a>
                             </div>
                         </li>
@@ -81,6 +98,12 @@
                 </div>
             </nav>
         </div>
+        <section class="text-light sty p-5">
+            <center>
+                <h3>STUDY AT SQI,<br>SUCCEED ANYWHERE</h3>
+                <button type="submit" class="btn btn-primary px-4 py-2 my-5">APPLY NOW</button>
+            </center>
+        </section>
 
     </div>
 
